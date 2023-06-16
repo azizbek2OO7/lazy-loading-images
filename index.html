@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lazy Loading</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="images-box">
+        <div class="img-item lazy-load">
+          <img src="" data-src="https://picsum.photos/1001/2001" alt="" />
+        </div>
+        <div class="img-item lazy-load">
+          <img src="" data-src="https://picsum.photos/1002/2002" alt="" />
+        </div>
+        <div class="img-item lazy-load">
+          <img src="" data-src="https://picsum.photos/1003/2003" alt="" />
+        </div>
+        <div class="img-item lazy-load">
+          <img src="" data-src="https://picsum.photos/1004/2004" alt="" />
+        </div>
+      </div>
+      <button>Reload</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
