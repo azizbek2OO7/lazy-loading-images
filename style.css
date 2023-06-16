@@ -8,6 +8,7 @@ body {
   display: grid;
   place-items: center;
   height: 100vh;
+  background-color: #222;
 }
 
 img {
@@ -18,10 +19,10 @@ img {
 
 .container {
   width: 1000px;
-  height: 750px;
+  height: 730px;
   display: grid;
-  padding: 35px;
-  background-color: orange;
+  padding: 30px 40px 40px 40px;
+  background-color: aquamarine;
 }
 
 .images-box {
@@ -29,7 +30,7 @@ img {
   grid-template-columns: 1fr 1fr;
   gap: 20px;
   border: 2px solid black;
-  padding: 15px 10px;
+  padding: 15px 15px;
 }
 
 .img-item {
@@ -66,9 +67,9 @@ button {
   border: none;
   font-weight: 600;
   border-radius: 8px;
-  background-color: orangered;
+  background-color: dodgerblue;
   font-size: 20px;
-  margin: 30px auto;
+  margin: 15px auto;
   display: block;
   cursor: pointer;
 }
